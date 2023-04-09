@@ -32,7 +32,7 @@ final class ResultViewController: UIViewController {
     
     private func updateUI() {
         let mostFrequentAnimal = findMostFrequentAnimal()
-        resultAnswerLabel.text = "Вы - \(mostFrequentAnimal.rawValue)"
+        resultAnswerLabel.text = "Вы - \(mostFrequentAnimal.rawValue)!"
         resultTextLabel.text = mostFrequentAnimal.definition
     }
     
