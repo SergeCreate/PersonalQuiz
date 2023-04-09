@@ -64,7 +64,7 @@ final class QuestionViewController: UIViewController {
         answersChosen.append(currentAnswers[index])
         nextQuestion()
     }
-    
+// MARK: - Data transfer
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showResult" {
             let destinationVC = segue.destination as! ResultViewController
